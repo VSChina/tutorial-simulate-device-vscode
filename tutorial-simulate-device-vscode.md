@@ -61,7 +61,7 @@ Configure and start the Azure IoT Edge runtime on your device.
 Manage your Azure IoT Edge device in VS Code to deploy a module which will send telemetry data to IoT Hub.
 
 1. In Command Palette, select **Edge: Generate Edge deployment manifest**, save the **deployment.json** file.
-1. In the **modules** of **deployment.json**, update **SampleModule** to **tempSensor**, update **`<registry>/<image>:<tag>`** to **microsoft/azureiotedge-simulated-temperature-sensor:1.0-preview**.
+1. In the **modules** section of **deployment.json**, update **SampleModule** to **tempSensor**, update **`<registry>/<image>:<tag>`** to **microsoft/azureiotedge-simulated-temperature-sensor:1.0-preview**.
 1. Right-click the Edge device in Device List and select **Create deployment for Edge device**, then select the **deployment.json** file to deploy the module.
 
 ## View generated data
