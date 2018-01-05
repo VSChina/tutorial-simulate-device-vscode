@@ -51,10 +51,10 @@ Register an IoT Edge device with your newly created IoT Hub.
 Configure and start the Azure IoT Edge runtime on your device. 
 
 1. Right-click the Edge device in Device List and select **Setup Edge**
-1. In Command Palette, select **Edge: Start Edge**
-1. Expand the Edge device in Device List to see that the IoT Edge agent is running as a module.
 
-![pic]
+   ![](./images/setup-edge.png)
+
+1. In Command Palette, select **Edge: Start Edge**
 
 ## Deploy a module
 
@@ -69,5 +69,13 @@ Manage your Azure IoT Edge device in VS Code to deploy a module which will send 
 Monitor device to cloud messages sent from your IoT Edge device to your IoT hub
 
 1. To monitor data arriving at the IoT hub, right-click the Edge device and select **Start monitoring D2C message**
+
+   ![](./images/monitor-d2c-message.png)
+
 1. To stop monitoring data, right-click the Output Channel and select **Stop monitoring D2C message**
 
+## View module stauts
+
+Expand the Edge device to view the status of each module
+
+![](./images/module-status.png)

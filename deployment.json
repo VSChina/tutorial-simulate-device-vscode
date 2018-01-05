@@ -29,13 +29,13 @@
                     }
                 },
                 "modules": {
-                    "SampleModule": {
+                    "tempSensor": {
                         "version": "1.0",
                         "type": "docker",
                         "status": "running",
                         "restartPolicy": "always",
                         "settings": {
-                            "image": "<registry>/<image>:<tag>",
+                            "image": "microsoft/azureiotedge-simulated-temperature-sensor:1.0-preview",
                             "createOptions": "{}"
                         }
                     }
